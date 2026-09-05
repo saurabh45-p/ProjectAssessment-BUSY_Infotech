@@ -81,14 +81,14 @@ The backend is hosted on Render's free tier — the first request after inactivi
 
 | Phase | Hours |
 |-------|-------|
-| Planning, schema design, and architecture | ~8 h |
-| Backend API (auth, courses, payments, email) | ~7 h |
-| Frontend — core pages and routing | ~5 h |
-| Frontend — dashboard, analytics, video player | ~6 h |
-| Integration, debugging, and end-to-end testing | ~5 h |
-| Deployment and environment configuration | ~3 h |
-| Documentation and this submission | ~2 h |
-| **Total** | **~36 h** |
+| Planning, schema design, and architecture | ~2 h |
+| Backend API (auth, courses, payments, email) | ~10 h |
+| Frontend — core pages, auth, and routing | ~6 h |
+| Frontend — dashboard, analytics, course player | ~7 h |
+| Integration, debugging, and end-to-end testing | ~3 h |
+| Deployment and environment configuration | ~1 h |
+| Documentation and this submission | ~1 h |
+| **Total** | **~30 h** |
 
 ---
 

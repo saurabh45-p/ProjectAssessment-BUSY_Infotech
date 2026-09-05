@@ -8,21 +8,21 @@ This document records the actual build sequence and time allocation used during 
 
 | # | Phase | Goal | Est. Hours | Actual Hours |
 |---|---|---|---|---|
-| 1 | Foundation | Repo setup, env config, DB connection, Express skeleton | 2 | ~2 |
-| 2 | Auth system | Signup/OTP/login/JWT/reset-password | 6 | ~8 |
-| 3 | Course data layer | All Mongoose models + relations | 3 | ~3 |
-| 4 | Course CRUD API | Create / Read / Update / Delete + Cloudinary upload | 10 | ~12 |
-| 5 | Payment API | Razorpay order + verify + enrolment + email | 6 | ~7 |
-| 6 | Analytics API | Instructor dashboard aggregation pipeline | 4 | ~5 |
-| 7 | Frontend foundation | Vite setup, Tailwind, Redux store, Axios, React Router | 4 | ~4 |
-| 8 | Auth UI | Signup, login, OTP verify, forgot / reset password flows | 8 | ~10 |
-| 9 | Student UI | Home, Catalogue, CourseDetails, Cart, Checkout, ViewCourse | 12 | ~14 |
-| 10 | Instructor UI | AddCourse wizard, MyCourses, EditCourse, InstructorDashboard | 10 | ~12 |
-| 11 | Shared UI | Navbar, Footer, Settings, MyProfile, PurchaseHistory | 5 | ~5 |
-| 12 | Integration & debugging | End-to-end testing, cross-origin fixes, env alignment | 8 | ~10 |
-| 13 | Deployment | Vercel (frontend) + Render (backend) + Atlas IP allowlist | 4 | ~4 |
-| 14 | Documentation | README, SUBMISSION.md, docs/ | 3 | ~3 |
-| **Total** | | | **85 h** | **~99 h** |
+| 1 | Foundation | Repo setup, env config, DB connection, Express skeleton | 1 | ~1 |
+| 2 | Auth system | Signup/OTP/login/JWT/reset-password | 2 | ~3 |
+| 3 | Course data layer | All Mongoose models + relations | 1 | ~1 |
+| 4 | Course CRUD API | Create / Read / Update / Delete + Cloudinary upload | 3 | ~4 |
+| 5 | Payment API | Razorpay order + verify + enrolment + email | 2 | ~2 |
+| 6 | Analytics API | Instructor dashboard aggregation pipeline | 1 | ~1 |
+| 7 | Frontend foundation | Vite setup, Tailwind, Redux store, Axios, React Router | 1 | ~1 |
+| 8 | Auth UI | Signup, login, OTP verify, forgot / reset password flows | 2 | ~3 |
+| 9 | Student UI | Home, Catalogue, CourseDetails, Cart, Checkout, ViewCourse | 4 | ~4 |
+| 10 | Instructor UI | AddCourse wizard, MyCourses, EditCourse, InstructorDashboard | 3 | ~3 |
+| 11 | Shared UI | Navbar, Footer, Settings, MyProfile, PurchaseHistory | 2 | ~2 |
+| 12 | Integration & debugging | End-to-end testing, cross-origin fixes, env alignment | 2 | ~3 |
+| 13 | Deployment | Vercel (frontend) + Render (backend) + Atlas IP allowlist | 1 | ~1 |
+| 14 | Documentation | README, SUBMISSION.md, docs/ | 1 | ~1 |
+| **Total** | | | **26 h** | **~30 h** |
 
 ---
 

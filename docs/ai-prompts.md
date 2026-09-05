@@ -25,7 +25,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-10 |
+| **Date** | 2026-09-01 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Auth — OTP verification |
 | **Prompt** | `I'm building an OTP verification flow in Mongoose. I want the OTP document to expire automatically after about 4 hours without a cron job. Show me the schema and explain how MongoDB handles TTL indexes.` |
@@ -40,7 +40,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-14 |
+| **Date** | 2026-09-02 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Payment — signature verification |
 | **Prompt** | `Write a Node.js Express controller that verifies a Razorpay payment signature using HMAC-SHA256. The inputs are razorpay_order_id, razorpay_payment_id, and razorpay_signature. Show how to construct the body string and compare the digest.` |
@@ -55,7 +55,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-17 |
+| **Date** | 2026-09-03 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Analytics — instructor dashboard |
 | **Prompt** | `I have an Order collection where each document has a 'courses' array (ObjectIds) and an 'amount' field. An order can contain courses from multiple instructors. Write a MongoDB aggregation that computes per-course revenue for a specific instructor, splitting the order amount evenly across all courses in that order.` |
@@ -70,7 +70,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-11 |
+| **Date** | 2026-09-01 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Media — file upload |
 | **Prompt** | `Write a Node.js utility function that takes a local file path, uploads it to Cloudinary using the v2 SDK with resource_type auto, deletes the local temp file after upload (success or failure), and returns the Cloudinary response object.` |
@@ -85,7 +85,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-10 |
+| **Date** | 2026-09-02 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Auth — transactional email |
 | **Prompt** | `Write a clean HTML email template function for OTP verification. It should accept an OTP string and return an HTML string. Use inline CSS only (no external stylesheets). Brand name: codevolveX. Primary colour: dark navy. Keep it under 30 lines.` |
@@ -100,7 +100,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-15 |
+| **Date** | 2026-09-02 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Payment — post-enrolment email |
 | **Prompt** | `Write a JavaScript function that returns an HTML email string for a course enrolment confirmation. Parameters: courseName (string), studentName (string). Should feel warm and professional.` |
@@ -115,7 +115,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-20 |
+| **Date** | 2026-09-04 |
 | **Tool** | GitHub Copilot (inline) |
 | **Phase** | Frontend — state management |
 | **Prompt** | *(Inline autocomplete — no explicit prompt. Copilot suggested the full `addToCart`, `removeFromCart`, and `resetCart` reducers after the slice boilerplate was typed.)* |
@@ -130,7 +130,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-19 |
+| **Date** | 2026-09-03 |
 | **Tool** | ChatGPT-4o |
 | **Phase** | Frontend — routing |
 | **Prompt** | `Write a React PrivateRoute component using react-router-dom v6+ that reads the auth token from a Redux store and redirects to /login if the user is not authenticated.` |
@@ -145,7 +145,7 @@ This file logs every meaningful prompt given to an AI tool during development, t
 
 | Field | Value |
 |---|---|
-| **Date** | 2026-08-15 |
+| **Date** | 2026-09-04 |
 | **Tool** | GitHub Copilot (inline) |
 | **Phase** | Payment — receipt email |
 | **Prompt** | *(Inline autocomplete — triggered after typing the function signature `paymentSuccessEmail(studentName, amount, orderId, paymentId)`.)* |
