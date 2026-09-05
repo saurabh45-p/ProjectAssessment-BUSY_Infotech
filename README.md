@@ -2,9 +2,13 @@
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
   <img src="https://img.shields.io/badge/License-ISC-blue.svg" alt="License">
   <img src="https://img.shields.io/badge/Version-1.0.0-informational.svg" alt="Version">
+  <a href="https://codevolvx.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Live%20Demo-codevolvx.vercel.app-brightgreen.svg?logo=vercel" alt="Live Demo"></a>
   <h1>codevolveX 🚀</h1>
   <p><strong>A Modern, Full-Stack EdTech Learning Management System</strong></p>
   <p>Delivering a seamless, scalable, and intuitive learning and course creation experience for modern education.</p>
+  <p>
+    <a href="https://codevolvx.vercel.app" target="_blank"><strong>🌐 Live Demo: https://codevolvx.vercel.app</strong></a>
+  </p>
 </div>
 
 ---
@@ -29,6 +33,8 @@
 ## 🎯 Overview
 
 **codevolveX** is an enterprise-grade Learning Management System (LMS) built with the MERN stack. It bridges the gap between eager learners and knowledgeable instructors by providing a robust platform for course creation, secure transactions, and interactive video-based learning. Designed with performance and user experience in mind, codevolveX scales seamlessly to accommodate growing educational communities.
+
+🌐 **Live Application:** [https://codevolvx.vercel.app](https://codevolvx.vercel.app)
 
 ---
 
